@@ -1,0 +1,9 @@
+# will make everything private that is not in
+# the components/merchandising/app/public folder
+
+enforce_privacy: true
+
+# Turn on dependency checks for this package
+enforce_dependencies: true
+dependencies:
+  - app/models/vihicle
